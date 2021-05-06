@@ -2,11 +2,14 @@
 
 ##### _This is a work in progress. Will not work right now, but more for keeping track of what to install on a reinstall._
 
+```zsh
+!#/bin/zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install glib gnupg maven automake curl wget pyenv scrcpy nvm libtool gradle coreutils telnet git-gui gnu-tar openssh  mpv scrcpy bitwarden-cli  go git nano mercurial youtube-dl aria2 ffmpeg gstreamer portaudio gcc qemu moreutils mosh cmake automake openjdk@11 openjdk
 brew install --cask iterm2 iina visual-studio-code-insiders android-platform-tools firefox-developer-edition kap mos barrier raspberry-pi-imager terminius visual-studio qt github-beta aria2-gui emby   vlc slack dbeaver-community spotify font-fira-code p7zip unzip keka gim microsoft-edge-dev fuse telegram macfuse alacritty transmission signal microsoft-office obs cakebrew vnc-viewer 
 wget https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seadrive-2.0.13.dmg
 wget https://download.tuxera.com/mac/tuxerantfs_2020.1.dmg
+```
 
 #### Manual Install
 
